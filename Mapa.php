@@ -12,7 +12,7 @@ function initialize() {
 	//************************ PARÁMETROS PHP *****************************************
 	
 	// Create connection
-	$con=mysqli_connect("localhost","root","*","freakeando");
+	$con=mysqli_connect("localhost","root","ninedata","freakeando");
 	
 	// Check connection
 	if (mysqli_connect_errno()) {
@@ -21,19 +21,75 @@ function initialize() {
 		
 	// Consulta Select * from farmacias_csv
 	if ($limitado) {
-		$result = mysqli_query($con,"SELECT NOMBRE, LATITUD,
-		LONGITUD FROM farmacias_csv WHERE `LATITUD` != '' AND `LONGITUD` != '' LIMIT " . $limite_busquedas);
+		$result = mysqli_query($con,"SELECT * FROM farmacias_csv WHERE `LATITUD` != '' AND `LONGITUD` != '' LIMIT " . $limite_busquedas);
 	} else {
-		$result = mysqli_query($con,"SELECT NOMBRE, LATITUD,
-		LONGITUD FROM farmacias_csv WHERE `LATITUD` != '' AND `LONGITUD` != ''");
+		$result = mysqli_query($con,"SELECT * FROM farmacias_csv WHERE `LATITUD` != '' AND `LONGITUD` != ''");
 	}
 
 	
 	$row = mysqli_fetch_array($result);
-	echo "locations = [ ['" . $row['NOMBRE'] . "', " . $row['LATITUD'] . "," . $row['LONGITUD'] . "]";
+	echo "locations = [ ['" . $row['PK'] . "', '" .
+							  $row['NOMBRE'] . "', '" .
+							  $row['DESCRIPCIONENTIDAD'] . "', '" .
+							  $row['HORARIO'] . "', '" .
+							  $row['EQUIPAMIENTO'] . "', '" .
+							  $row['TRANSPORTE'] . "', '" .
+							  $row['DESCRIPCION'] . "', '" .
+							  $row['ACCESIBILIDAD'] . "', '" .
+							  $row['CONTENTURL'] . "', '" .
+							  $row['NOMBREVIA'] . "', '" .
+							  $row['CLASEVIAL'] . "', '" .
+							  $row['TIPONUM'] . "', '" .
+							  $row['NUM'] . "', '" .
+							  $row['PLANTA'] . "', '" .
+							  $row['PUERTA'] . "', '" .
+							  $row['ESCALERAS'] . "', '" .
+							  $row['ORIENTACION'] . "', '" .
+							  $row['LOCALIDAD'] . "', '" .
+							  $row['PROVINCIA'] . "', '" .
+							  $row['CODIGOPOSTAL'] . "', '" .
+							  $row['BARRIO'] . "', '" .
+							  $row['DISTRITO'] . "', '" .
+							  $row['COORDENADAX'] . "', '" .
+							  $row['COORDENADAY'] . "', " .
+							  $row['LATITUD'] . ", " .
+							  $row['LONGITUD'] . ", '" .
+							  $row['TELEFONO'] . "', '" .
+							  $row['FAX'] . "', '" .
+							  $row['EMAIL'] . "', '" .
+							  $row['TIPO'] . "']";
 	while($row = mysqli_fetch_array($result)) {
 		echo ",\n";
-		echo "['" . $row['NOMBRE'] . "', " . $row['LATITUD'] . "," . $row['LONGITUD'] . "]";
+		echo "['" . $row['PK'] . "', '" .
+					$row['NOMBRE'] . "', '" .
+					$row['DESCRIPCIONENTIDAD'] . "', '" .
+					$row['HORARIO'] . "', '" .
+					$row['EQUIPAMIENTO'] . "', '" .
+					$row['TRANSPORTE'] . "', '" .
+					$row['DESCRIPCION'] . "', '" .
+					$row['ACCESIBILIDAD'] . "', '" .
+					$row['CONTENTURL'] . "', '" .
+					$row['NOMBREVIA'] . "', '" .
+					$row['CLASEVIAL'] . "', '" .
+					$row['TIPONUM'] . "', '" .
+					$row['NUM'] . "', '" .
+					$row['PLANTA'] . "', '" .
+					$row['PUERTA'] . "', '" .
+					$row['ESCALERAS'] . "', '" .
+					$row['ORIENTACION'] . "', '" .
+					$row['LOCALIDAD'] . "', '" .
+					$row['PROVINCIA'] . "', '" .
+					$row['CODIGOPOSTAL'] . "', '" .
+					$row['BARRIO'] . "', '" .
+					$row['DISTRITO'] . "', '" .
+					$row['COORDENADAX'] . "', '" .
+					$row['COORDENADAY'] . "', " .
+					$row['LATITUD'] . ", " .
+					$row['LONGITUD'] . ", '" .
+					$row['TELEFONO'] . "', '" .
+					$row['FAX'] . "', '" .
+					$row['EMAIL'] . "', '" .
+					$row['TIPO'] . "']";
 	}
 	mysqli_close($con);
 	echo "];";
@@ -90,7 +146,7 @@ function actualiza_web() {
 function pinta_tabla(tableID) {
 	var filapar = true;
 	for (var i=0; i < locations.length; i++) {
-		distancia = google.maps.geometry.spherical.computeDistanceBetween(new google.maps.LatLng(locations[i][1],locations[i][2]), new google.maps.LatLng(pos.lat(), pos.lng()));
+		distancia = google.maps.geometry.spherical.computeDistanceBetween(new google.maps.LatLng(locations[i][24],locations[i][25]), new google.maps.LatLng(pos.lat(), pos.lng()));
 		if(distancia <= distancia_tope) {
 			if (filapar) {
 				addRow(locations[i], tableID, null);
@@ -127,11 +183,13 @@ function pinta_puntos() {
 	//* del parametro "distancia_tope" del punto geolocalizado
 	//**************************************************************************************************
 	var marker;
+	var contador = 0; 
 	for (i = 0; i < locations.length; i++) { 
-		distancia = google.maps.geometry.spherical.computeDistanceBetween(new google.maps.LatLng(locations[i][1],locations[i][2]), new google.maps.LatLng(pos.lat(), pos.lng()));
+		distancia = google.maps.geometry.spherical.computeDistanceBetween(new google.maps.LatLng(locations[i][24],locations[i][25]), new google.maps.LatLng(pos.lat(), pos.lng()));
 		if(distancia <= distancia_tope) {
+			contador++;
 			marker = new google.maps.Marker({
-				position: new google.maps.LatLng(locations[i][1],locations[i][2]),
+				position: new google.maps.LatLng(locations[i][24],locations[i][25]),
 				map: map,
 				icon: icono_marcador, 
 				title: locations[i][0] + " está a " + distancia.toString().substring(0,6) + " metros."
@@ -139,6 +197,7 @@ function pinta_puntos() {
 			google.maps.Map.prototype.markers.push(marker);
 		}
 	};
+	document.getElementById("resultado").innerHTML = "Se han encontrado " + contador + " farmacias a menos de " + distancia_tope + " metros de tí.";
 }//************************ FIN PARÁMETROS JAVASCRIPT ***********************************
 // Pinta en el mapa todos los puntos que estén a una distancia igual o menor que la indicada por el formulario distancia.
 //************************ FIN PARÁMETROS JAVASCRIPT ***********************************
