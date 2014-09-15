@@ -25,10 +25,12 @@
 				<p id="parrafo">Papaar papaar al ataquerl se calle ustée qué dise usteer fistro se calle ustée ese pedazo de quietooor. Ahorarr a wan ese que llega ese que llega. Sexuarl de la pradera a peich benemeritaar jarl al ataquerl ese hombree amatomaa. Me cago en tus muelas a wan al ataquerl se calle ustée apetecan ahorarr. Está la cosa muy malar va usté muy cargadoo no te digo trigo por no llamarte Rodrigor a peich condemor.</p>-->
 				Distancia en Kms: <input id="dist" type="text" name="dist" value="">
 				<input onclick="actualiza_web();" type=button value="Envia">
+				<span id="resultado"></span>
 			</div>
 
 			<span id="map_canvas"></span>
 			
+			<p>Lista de farmacias encontradas cerca tuyo.</p>
 			<table id='container'>
 				<tr>
 					<th>PK</th>
