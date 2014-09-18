@@ -7,6 +7,17 @@
 	letter-spacing: -2px;
 }
 
+.enlace {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:	#98bf21;
+	text-align: center;
+	font-size: 150%;
+	font-weight: bolder;
+	letter-spacing: -2px;
+	display: block;
+	text-decoration: none;
+}
+
 #izq {
 	float: left;
 	visibility: hidden;
@@ -82,3 +93,12 @@ body {
 }
 
 
+.q0 { fill:rgb(247,255,255); }    
+.q1 { fill:rgb(222,255,235); }    
+.q2 { fill:rgb(198,255,219); }    
+.q3 { fill:rgb(158,255,202); }    
+.q4 { fill:rgb(107,255,174); }    
+.q5 { fill:rgb(66 ,255,146); }    
+.q6 { fill:rgb(33 ,255,113); }    
+.q7 { fill:rgb(15  ,255,100 ); }    
+.q8 { fill:rgb(8  ,255,80 ); }    
