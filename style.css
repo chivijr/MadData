@@ -92,13 +92,833 @@ body {
 	height: 100%; 
 }
 
+/******************* BOTONES ********************/
+.botones {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #9dce2c), color-stop(1, #8cb82b) );
+	background:-moz-linear-gradient( center top, #9dce2c 5%, #8cb82b 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#9dce2c', endColorstr='#8cb82b');
+	background-color:#98bf21;
+	-webkit-border-top-left-radius:7px;
+	-moz-border-radius-topleft:7px;
+	border-top-left-radius:7px;
+	-webkit-border-top-right-radius:7px;
+	-moz-border-radius-topright:7px;
+	border-top-right-radius:7px;
+	-webkit-border-bottom-right-radius:7px;
+	-moz-border-radius-bottomright:7px;
+	border-bottom-right-radius:7px;
+	-webkit-border-bottom-left-radius:7px;
+	-moz-border-radius-bottomleft:7px;
+	border-bottom-left-radius:7px;
+	text-indent:0px;
+	display:inline-block;
+	color:#ffffff;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	font-style:normal;
+	height:37px;
+	line-height:37px;
+	width:200px;
+	text-align:center;
+}
 
-.q0 { fill:rgb(247,255,255); }    
-.q1 { fill:rgb(222,255,235); }    
-.q2 { fill:rgb(198,255,219); }    
-.q3 { fill:rgb(158,255,202); }    
-.q4 { fill:rgb(107,255,174); }    
-.q5 { fill:rgb(66 ,255,146); }    
-.q6 { fill:rgb(33 ,255,113); }    
-.q7 { fill:rgb(15  ,255,100 ); }    
-.q8 { fill:rgb(8  ,255,80 ); }    
+}.botones:active {
+	position:relative;
+	top:1px;
+}	
+/* This button was generated using CSSButtonGenerator.com */
+
+.f0   { fill:rgb(0,  0,0)}    
+.f1   { fill:rgb(0, 12,0)}    
+.f2   { fill:rgb(0, 24,0)}    
+.f3   { fill:rgb(0, 36,0)}    
+.f4   { fill:rgb(0, 48,0)}    
+.f5   { fill:rgb(0, 60,0)}    
+.f6   { fill:rgb(0, 72,0)}    
+.f7   { fill:rgb(0, 84,0)}    
+.f8   { fill:rgb(0, 96,0)}   
+.f9   { fill:rgb(0,108,0)}
+.f10  { fill:rgb(0,120,0)}
+.f11  { fill:rgb(0,132,0)}
+.f12  { fill:rgb(0,144,0)}
+.f13  { fill:rgb(0,156,0)}
+.f14  { fill:rgb(0,168,0)}
+.f15  { fill:rgb(0,180,0)}
+.f16  { fill:rgb(0,192,0)}
+.f17  { fill:rgb(0,204,0)}
+.f18  { fill:rgb(0,216,0)}
+.f19  { fill:rgb(0,228,0)}
+.f20  { fill:rgb(0,240,0)}
+.f21  { fill:rgb(0,255,0)}
+
+.d0   { fill:rgb(0, 0, 0)}
+.d1   { fill:rgb(1, 1, 1)}
+.d2   { fill:rgb(2, 2, 2)}
+.d3   { fill:rgb(3, 3, 3)}
+.d4   { fill:rgb(4, 4, 4)}
+.d5   { fill:rgb(5, 5, 5)}
+.d6   { fill:rgb(6, 6, 6)}
+.d7   { fill:rgb(7, 7, 7)}
+.d8   { fill:rgb(8, 8, 8)}
+.d9   { fill:rgb(9, 9, 9)}
+.d10   { fill:rgb(10, 10, 10)}
+.d11   { fill:rgb(11, 11, 11)}
+.d12   { fill:rgb(12, 12, 12)}
+.d13   { fill:rgb(13, 13, 13)}
+.d14   { fill:rgb(14, 14, 14)}
+.d15   { fill:rgb(15, 15, 15)}
+.d16   { fill:rgb(16, 16, 16)}
+.d17   { fill:rgb(17, 17, 17)}
+.d18   { fill:rgb(18, 18, 18)}
+.d19   { fill:rgb(19, 19, 19)}
+.d20   { fill:rgb(20, 20, 20)}
+.d21   { fill:rgb(21, 21, 21)}
+.d22   { fill:rgb(22, 22, 22)}
+.d23   { fill:rgb(23, 23, 23)}
+.d24   { fill:rgb(24, 24, 24)}
+.d25   { fill:rgb(25, 25, 25)}
+.d26   { fill:rgb(26, 26, 26)}
+.d27   { fill:rgb(27, 27, 27)}
+.d28   { fill:rgb(28, 28, 28)}
+.d29   { fill:rgb(29, 29, 29)}
+.d30   { fill:rgb(30, 30, 30)}
+.d31   { fill:rgb(31, 31, 31)}
+.d32   { fill:rgb(32, 32, 32)}
+.d33   { fill:rgb(33, 33, 33)}
+.d34   { fill:rgb(34, 34, 34)}
+.d35   { fill:rgb(35, 35, 35)}
+.d36   { fill:rgb(36, 36, 36)}
+.d37   { fill:rgb(37, 37, 37)}
+.d38   { fill:rgb(38, 38, 38)}
+.d39   { fill:rgb(39, 39, 39)}
+.d40   { fill:rgb(40, 40, 40)}
+.d41   { fill:rgb(41, 41, 41)}
+.d42   { fill:rgb(42, 42, 42)}
+.d43   { fill:rgb(43, 43, 43)}
+.d44   { fill:rgb(44, 44, 44)}
+.d45   { fill:rgb(45, 45, 45)}
+.d46   { fill:rgb(46, 46, 46)}
+.d47   { fill:rgb(47, 47, 47)}
+.d48   { fill:rgb(48, 48, 48)}
+.d49   { fill:rgb(49, 49, 49)}
+.d50   { fill:rgb(50, 50, 50)}
+.d51   { fill:rgb(51, 51, 51)}
+.d52   { fill:rgb(52, 52, 52)}
+.d53   { fill:rgb(53, 53, 53)}
+.d54   { fill:rgb(54, 54, 54)}
+.d55   { fill:rgb(55, 55, 55)}
+.d56   { fill:rgb(56, 56, 56)}
+.d57   { fill:rgb(57, 57, 57)}
+.d58   { fill:rgb(58, 58, 58)}
+.d59   { fill:rgb(59, 59, 59)}
+.d60   { fill:rgb(60, 60, 60)}
+.d61   { fill:rgb(61, 61, 61)}
+.d62   { fill:rgb(62, 62, 62)}
+.d63   { fill:rgb(63, 63, 63)}
+.d64   { fill:rgb(64, 64, 64)}
+.d65   { fill:rgb(65, 65, 65)}
+.d66   { fill:rgb(66, 66, 66)}
+.d67   { fill:rgb(67, 67, 67)}
+.d68   { fill:rgb(68, 68, 68)}
+.d69   { fill:rgb(69, 69, 69)}
+.d70   { fill:rgb(70, 70, 70)}
+.d71   { fill:rgb(71, 71, 71)}
+.d72   { fill:rgb(72, 72, 72)}
+.d73   { fill:rgb(73, 73, 73)}
+.d74   { fill:rgb(74, 74, 74)}
+.d75   { fill:rgb(75, 75, 75)}
+.d76   { fill:rgb(76, 76, 76)}
+.d77   { fill:rgb(77, 77, 77)}
+.d78   { fill:rgb(78, 78, 78)}
+.d79   { fill:rgb(79, 79, 79)}
+.d80   { fill:rgb(80, 80, 80)}
+.d81   { fill:rgb(81, 81, 81)}
+.d82   { fill:rgb(82, 82, 82)}
+.d83   { fill:rgb(83, 83, 83)}
+.d84   { fill:rgb(84, 84, 84)}
+.d85   { fill:rgb(85, 85, 85)}
+.d86   { fill:rgb(86, 86, 86)}
+.d87   { fill:rgb(87, 87, 87)}
+.d88   { fill:rgb(88, 88, 88)}
+.d89   { fill:rgb(89, 89, 89)}
+.d90   { fill:rgb(90, 90, 90)}
+.d91   { fill:rgb(91, 91, 91)}
+.d92   { fill:rgb(92, 92, 92)}
+.d93   { fill:rgb(93, 93, 93)}
+.d94   { fill:rgb(94, 94, 94)}
+.d95   { fill:rgb(95, 95, 95)}
+.d96   { fill:rgb(96, 96, 96)}
+.d97   { fill:rgb(97, 97, 97)}
+.d98   { fill:rgb(98, 98, 98)}
+.d99   { fill:rgb(99, 99, 99)}
+.d100   { fill:rgb(100, 100, 100)}
+.d101   { fill:rgb(101, 101, 101)}
+.d102   { fill:rgb(102, 102, 102)}
+.d103   { fill:rgb(103, 103, 103)}
+.d104   { fill:rgb(104, 104, 104)}
+.d105   { fill:rgb(105, 105, 105)}
+.d106   { fill:rgb(106, 106, 106)}
+.d107   { fill:rgb(107, 107, 107)}
+.d108   { fill:rgb(108, 108, 108)}
+.d109   { fill:rgb(109, 109, 109)}
+.d110   { fill:rgb(110, 110, 110)}
+.d111   { fill:rgb(111, 111, 111)}
+.d112   { fill:rgb(112, 112, 112)}
+.d113   { fill:rgb(113, 113, 113)}
+.d114   { fill:rgb(114, 114, 114)}
+.d115   { fill:rgb(115, 115, 115)}
+.d116   { fill:rgb(116, 116, 116)}
+.d117   { fill:rgb(117, 117, 117)}
+.d118   { fill:rgb(118, 118, 118)}
+.d119   { fill:rgb(119, 119, 119)}
+.d120   { fill:rgb(120, 120, 120)}
+.d121   { fill:rgb(121, 121, 121)}
+.d122   { fill:rgb(122, 122, 122)}
+.d123   { fill:rgb(123, 123, 123)}
+.d124   { fill:rgb(124, 124, 124)}
+.d125   { fill:rgb(125, 125, 125)}
+.d126   { fill:rgb(126, 126, 126)}
+.d127   { fill:rgb(127, 127, 127)}
+.d128   { fill:rgb(128, 128, 128)}
+.d129   { fill:rgb(129, 129, 129)}
+.d130   { fill:rgb(130, 130, 130)}
+.d131   { fill:rgb(131, 131, 131)}
+.d132   { fill:rgb(132, 132, 132)}
+.d133   { fill:rgb(133, 133, 133)}
+.d134   { fill:rgb(134, 134, 134)}
+.d135   { fill:rgb(135, 135, 135)}
+.d136   { fill:rgb(136, 136, 136)}
+.d137   { fill:rgb(137, 137, 137)}
+.d138   { fill:rgb(138, 138, 138)}
+.d139   { fill:rgb(139, 139, 139)}
+.d140   { fill:rgb(140, 140, 140)}
+.d141   { fill:rgb(141, 141, 141)}
+.d142   { fill:rgb(142, 142, 142)}
+.d143   { fill:rgb(143, 143, 143)}
+.d144   { fill:rgb(144, 144, 144)}
+.d145   { fill:rgb(145, 145, 145)}
+.d146   { fill:rgb(146, 146, 146)}
+.d147   { fill:rgb(147, 147, 147)}
+.d148   { fill:rgb(148, 148, 148)}
+.d149   { fill:rgb(149, 149, 149)}
+.d150   { fill:rgb(150, 150, 150)}
+.d151   { fill:rgb(151, 151, 151)}
+.d152   { fill:rgb(152, 152, 152)}
+.d153   { fill:rgb(153, 153, 153)}
+.d154   { fill:rgb(154, 154, 154)}
+.d155   { fill:rgb(155, 155, 155)}
+.d156   { fill:rgb(156, 156, 156)}
+.d157   { fill:rgb(157, 157, 157)}
+.d158   { fill:rgb(158, 158, 158)}
+.d159   { fill:rgb(159, 159, 159)}
+.d160   { fill:rgb(160, 160, 160)}
+.d161   { fill:rgb(161, 161, 161)}
+.d162   { fill:rgb(162, 162, 162)}
+.d163   { fill:rgb(163, 163, 163)}
+.d164   { fill:rgb(164, 164, 164)}
+.d165   { fill:rgb(165, 165, 165)}
+.d166   { fill:rgb(166, 166, 166)}
+.d167   { fill:rgb(167, 167, 167)}
+.d168   { fill:rgb(168, 168, 168)}
+.d169   { fill:rgb(169, 169, 169)}
+.d170   { fill:rgb(170, 170, 170)}
+.d171   { fill:rgb(171, 171, 171)}
+.d172   { fill:rgb(172, 172, 172)}
+.d173   { fill:rgb(173, 173, 173)}
+.d174   { fill:rgb(174, 174, 174)}
+.d175   { fill:rgb(175, 175, 175)}
+.d176   { fill:rgb(176, 176, 176)}
+.d177   { fill:rgb(177, 177, 177)}
+.d178   { fill:rgb(178, 178, 178)}
+.d179   { fill:rgb(179, 179, 179)}
+.d180   { fill:rgb(180, 180, 180)}
+.d181   { fill:rgb(181, 181, 181)}
+.d182   { fill:rgb(182, 182, 182)}
+.d183   { fill:rgb(183, 183, 183)}
+.d184   { fill:rgb(184, 184, 184)}
+.d185   { fill:rgb(185, 185, 185)}
+.d186   { fill:rgb(186, 186, 186)}
+.d187   { fill:rgb(187, 187, 187)}
+.d188   { fill:rgb(188, 188, 188)}
+.d189   { fill:rgb(189, 189, 189)}
+.d190   { fill:rgb(190, 190, 190)}
+.d191   { fill:rgb(191, 191, 191)}
+.d192   { fill:rgb(192, 192, 192)}
+.d193   { fill:rgb(193, 193, 193)}
+.d194   { fill:rgb(194, 194, 194)}
+.d195   { fill:rgb(195, 195, 195)}
+.d196   { fill:rgb(196, 196, 196)}
+.d197   { fill:rgb(197, 197, 197)}
+.d198   { fill:rgb(198, 198, 198)}
+.d199   { fill:rgb(199, 199, 199)}
+.d200   { fill:rgb(200, 200, 200)}
+.d201   { fill:rgb(201, 201, 201)}
+.d202   { fill:rgb(202, 202, 202)}
+.d203   { fill:rgb(203, 203, 203)}
+.d204   { fill:rgb(204, 204, 204)}
+.d205   { fill:rgb(205, 205, 205)}
+.d206   { fill:rgb(206, 206, 206)}
+.d207   { fill:rgb(207, 207, 207)}
+.d208   { fill:rgb(208, 208, 208)}
+.d209   { fill:rgb(209, 209, 209)}
+.d210   { fill:rgb(210, 210, 210)}
+.d211   { fill:rgb(211, 211, 211)}
+.d212   { fill:rgb(212, 212, 212)}
+.d213   { fill:rgb(213, 213, 213)}
+.d214   { fill:rgb(214, 214, 214)}
+.d215   { fill:rgb(215, 215, 215)}
+.d216   { fill:rgb(216, 216, 216)}
+.d217   { fill:rgb(217, 217, 217)}
+.d218   { fill:rgb(218, 218, 218)}
+.d219   { fill:rgb(219, 219, 219)}
+.d220   { fill:rgb(220, 220, 220)}
+.d221   { fill:rgb(221, 221, 221)}
+.d222   { fill:rgb(222, 222, 222)}
+.d223   { fill:rgb(223, 223, 223)}
+.d224   { fill:rgb(224, 224, 224)}
+.d225   { fill:rgb(225, 225, 225)}
+.d226   { fill:rgb(226, 226, 226)}
+.d227   { fill:rgb(227, 227, 227)}
+.d228   { fill:rgb(228, 228, 228)}
+.d229   { fill:rgb(229, 229, 229)}
+.d230   { fill:rgb(230, 230, 230)}
+.d231   { fill:rgb(231, 231, 231)}
+.d232   { fill:rgb(232, 232, 232)}
+.d233   { fill:rgb(233, 233, 233)}
+.d234   { fill:rgb(234, 234, 234)}
+.d235   { fill:rgb(235, 235, 235)}
+.d236   { fill:rgb(236, 236, 236)}
+.d237   { fill:rgb(237, 237, 237)}
+.d238   { fill:rgb(238, 238, 238)}
+.d239   { fill:rgb(239, 239, 239)}
+.d240   { fill:rgb(240, 240, 240)}
+.d241   { fill:rgb(241, 241, 241)}
+.d242   { fill:rgb(242, 242, 242)}
+.d243   { fill:rgb(243, 243, 243)}
+.d244   { fill:rgb(244, 244, 244)}
+.d245   { fill:rgb(245, 245, 245)}
+.d246   { fill:rgb(246, 246, 246)}
+.d247   { fill:rgb(247, 247, 247)}
+.d248   { fill:rgb(248, 248, 248)}
+.d249   { fill:rgb(249, 249, 249)}
+.d250   { fill:rgb(250, 250, 250)}
+.d251   { fill:rgb(251, 251, 251)}
+.d252   { fill:rgb(252, 252, 252)}
+.d253   { fill:rgb(253, 253, 253)}
+.d254   { fill:rgb(254, 254, 254)}
+.d255   { fill:rgb(255, 255, 255)}
+
+.r0   { fill:rgb(0, 0, 0)}
+.r1   { fill:rgb(1, 0, 0)}
+.r2   { fill:rgb(2, 0, 0)}
+.r3   { fill:rgb(3, 0, 0)}
+.r4   { fill:rgb(4, 0, 0)}
+.r5   { fill:rgb(5, 0, 0)}
+.r6   { fill:rgb(6, 0, 0)}
+.r7   { fill:rgb(7, 0, 0)}
+.r8   { fill:rgb(8, 0, 0)}
+.r9   { fill:rgb(9, 0, 0)}
+.r10   { fill:rgb(10, 0, 0)}
+.r11   { fill:rgb(11, 0, 0)}
+.r12   { fill:rgb(12, 0, 0)}
+.r13   { fill:rgb(13, 0, 0)}
+.r14   { fill:rgb(14, 0, 0)}
+.r15   { fill:rgb(15, 0, 0)}
+.r16   { fill:rgb(16, 0, 0)}
+.r17   { fill:rgb(17, 0, 0)}
+.r18   { fill:rgb(18, 0, 0)}
+.r19   { fill:rgb(19, 0, 0)}
+.r20   { fill:rgb(20, 0, 0)}
+.r21   { fill:rgb(21, 0, 0)}
+.r22   { fill:rgb(22, 0, 0)}
+.r23   { fill:rgb(23, 0, 0)}
+.r24   { fill:rgb(24, 0, 0)}
+.r25   { fill:rgb(25, 0, 0)}
+.r26   { fill:rgb(26, 0, 0)}
+.r27   { fill:rgb(27, 0, 0)}
+.r28   { fill:rgb(28, 0, 0)}
+.r29   { fill:rgb(29, 0, 0)}
+.r30   { fill:rgb(30, 0, 0)}
+.r31   { fill:rgb(31, 0, 0)}
+.r32   { fill:rgb(32, 0, 0)}
+.r33   { fill:rgb(33, 0, 0)}
+.r34   { fill:rgb(34, 0, 0)}
+.r35   { fill:rgb(35, 0, 0)}
+.r36   { fill:rgb(36, 0, 0)}
+.r37   { fill:rgb(37, 0, 0)}
+.r38   { fill:rgb(38, 0, 0)}
+.r39   { fill:rgb(39, 0, 0)}
+.r40   { fill:rgb(40, 0, 0)}
+.r41   { fill:rgb(41, 0, 0)}
+.r42   { fill:rgb(42, 0, 0)}
+.r43   { fill:rgb(43, 0, 0)}
+.r44   { fill:rgb(44, 0, 0)}
+.r45   { fill:rgb(45, 0, 0)}
+.r46   { fill:rgb(46, 0, 0)}
+.r47   { fill:rgb(47, 0, 0)}
+.r48   { fill:rgb(48, 0, 0)}
+.r49   { fill:rgb(49, 0, 0)}
+.r50   { fill:rgb(50, 0, 0)}
+.r51   { fill:rgb(51, 0, 0)}
+.r52   { fill:rgb(52, 0, 0)}
+.r53   { fill:rgb(53, 0, 0)}
+.r54   { fill:rgb(54, 0, 0)}
+.r55   { fill:rgb(55, 0, 0)}
+.r56   { fill:rgb(56, 0, 0)}
+.r57   { fill:rgb(57, 0, 0)}
+.r58   { fill:rgb(58, 0, 0)}
+.r59   { fill:rgb(59, 0, 0)}
+.r60   { fill:rgb(60, 0, 0)}
+.r61   { fill:rgb(61, 0, 0)}
+.r62   { fill:rgb(62, 0, 0)}
+.r63   { fill:rgb(63, 0, 0)}
+.r64   { fill:rgb(64, 0, 0)}
+.r65   { fill:rgb(65, 0, 0)}
+.r66   { fill:rgb(66, 0, 0)}
+.r67   { fill:rgb(67, 0, 0)}
+.r68   { fill:rgb(68, 0, 0)}
+.r69   { fill:rgb(69, 0, 0)}
+.r70   { fill:rgb(70, 0, 0)}
+.r71   { fill:rgb(71, 0, 0)}
+.r72   { fill:rgb(72, 0, 0)}
+.r73   { fill:rgb(73, 0, 0)}
+.r74   { fill:rgb(74, 0, 0)}
+.r75   { fill:rgb(75, 0, 0)}
+.r76   { fill:rgb(76, 0, 0)}
+.r77   { fill:rgb(77, 0, 0)}
+.r78   { fill:rgb(78, 0, 0)}
+.r79   { fill:rgb(79, 0, 0)}
+.r80   { fill:rgb(80, 0, 0)}
+.r81   { fill:rgb(81, 0, 0)}
+.r82   { fill:rgb(82, 0, 0)}
+.r83   { fill:rgb(83, 0, 0)}
+.r84   { fill:rgb(84, 0, 0)}
+.r85   { fill:rgb(85, 0, 0)}
+.r86   { fill:rgb(86, 0, 0)}
+.r87   { fill:rgb(87, 0, 0)}
+.r88   { fill:rgb(88, 0, 0)}
+.r89   { fill:rgb(89, 0, 0)}
+.r90   { fill:rgb(90, 0, 0)}
+.r91   { fill:rgb(91, 0, 0)}
+.r92   { fill:rgb(92, 0, 0)}
+.r93   { fill:rgb(93, 0, 0)}
+.r94   { fill:rgb(94, 0, 0)}
+.r95   { fill:rgb(95, 0, 0)}
+.r96   { fill:rgb(96, 0, 0)}
+.r97   { fill:rgb(97, 0, 0)}
+.r98   { fill:rgb(98, 0, 0)}
+.r99   { fill:rgb(99, 0, 0)}
+.r100   { fill:rgb(100, 0, 0)}
+.r101   { fill:rgb(101, 0, 0)}
+.r102   { fill:rgb(102, 0, 0)}
+.r103   { fill:rgb(103, 0, 0)}
+.r104   { fill:rgb(104, 0, 0)}
+.r105   { fill:rgb(105, 0, 0)}
+.r106   { fill:rgb(106, 0, 0)}
+.r107   { fill:rgb(107, 0, 0)}
+.r108   { fill:rgb(108, 0, 0)}
+.r109   { fill:rgb(109, 0, 0)}
+.r110   { fill:rgb(110, 0, 0)}
+.r111   { fill:rgb(111, 0, 0)}
+.r112   { fill:rgb(112, 0, 0)}
+.r113   { fill:rgb(113, 0, 0)}
+.r114   { fill:rgb(114, 0, 0)}
+.r115   { fill:rgb(115, 0, 0)}
+.r116   { fill:rgb(116, 0, 0)}
+.r117   { fill:rgb(117, 0, 0)}
+.r118   { fill:rgb(118, 0, 0)}
+.r119   { fill:rgb(119, 0, 0)}
+.r120   { fill:rgb(120, 0, 0)}
+.r121   { fill:rgb(121, 0, 0)}
+.r122   { fill:rgb(122, 0, 0)}
+.r123   { fill:rgb(123, 0, 0)}
+.r124   { fill:rgb(124, 0, 0)}
+.r125   { fill:rgb(125, 0, 0)}
+.r126   { fill:rgb(126, 0, 0)}
+.r127   { fill:rgb(127, 0, 0)}
+.r128   { fill:rgb(128, 0, 0)}
+.r129   { fill:rgb(129, 0, 0)}
+.r130   { fill:rgb(130, 0, 0)}
+.r131   { fill:rgb(131, 0, 0)}
+.r132   { fill:rgb(132, 0, 0)}
+.r133   { fill:rgb(133, 0, 0)}
+.r134   { fill:rgb(134, 0, 0)}
+.r135   { fill:rgb(135, 0, 0)}
+.r136   { fill:rgb(136, 0, 0)}
+.r137   { fill:rgb(137, 0, 0)}
+.r138   { fill:rgb(138, 0, 0)}
+.r139   { fill:rgb(139, 0, 0)}
+.r140   { fill:rgb(140, 0, 0)}
+.r141   { fill:rgb(141, 0, 0)}
+.r142   { fill:rgb(142, 0, 0)}
+.r143   { fill:rgb(143, 0, 0)}
+.r144   { fill:rgb(144, 0, 0)}
+.r145   { fill:rgb(145, 0, 0)}
+.r146   { fill:rgb(146, 0, 0)}
+.r147   { fill:rgb(147, 0, 0)}
+.r148   { fill:rgb(148, 0, 0)}
+.r149   { fill:rgb(149, 0, 0)}
+.r150   { fill:rgb(150, 0, 0)}
+.r151   { fill:rgb(151, 0, 0)}
+.r152   { fill:rgb(152, 0, 0)}
+.r153   { fill:rgb(153, 0, 0)}
+.r154   { fill:rgb(154, 0, 0)}
+.r155   { fill:rgb(155, 0, 0)}
+.r156   { fill:rgb(156, 0, 0)}
+.r157   { fill:rgb(157, 0, 0)}
+.r158   { fill:rgb(158, 0, 0)}
+.r159   { fill:rgb(159, 0, 0)}
+.r160   { fill:rgb(160, 0, 0)}
+.r161   { fill:rgb(161, 0, 0)}
+.r162   { fill:rgb(162, 0, 0)}
+.r163   { fill:rgb(163, 0, 0)}
+.r164   { fill:rgb(164, 0, 0)}
+.r165   { fill:rgb(165, 0, 0)}
+.r166   { fill:rgb(166, 0, 0)}
+.r167   { fill:rgb(167, 0, 0)}
+.r168   { fill:rgb(168, 0, 0)}
+.r169   { fill:rgb(169, 0, 0)}
+.r170   { fill:rgb(170, 0, 0)}
+.r171   { fill:rgb(171, 0, 0)}
+.r172   { fill:rgb(172, 0, 0)}
+.r173   { fill:rgb(173, 0, 0)}
+.r174   { fill:rgb(174, 0, 0)}
+.r175   { fill:rgb(175, 0, 0)}
+.r176   { fill:rgb(176, 0, 0)}
+.r177   { fill:rgb(177, 0, 0)}
+.r178   { fill:rgb(178, 0, 0)}
+.r179   { fill:rgb(179, 0, 0)}
+.r180   { fill:rgb(180, 0, 0)}
+.r181   { fill:rgb(181, 0, 0)}
+.r182   { fill:rgb(182, 0, 0)}
+.r183   { fill:rgb(183, 0, 0)}
+.r184   { fill:rgb(184, 0, 0)}
+.r185   { fill:rgb(185, 0, 0)}
+.r186   { fill:rgb(186, 0, 0)}
+.r187   { fill:rgb(187, 0, 0)}
+.r188   { fill:rgb(188, 0, 0)}
+.r189   { fill:rgb(189, 0, 0)}
+.r190   { fill:rgb(190, 0, 0)}
+.r191   { fill:rgb(191, 0, 0)}
+.r192   { fill:rgb(192, 0, 0)}
+.r193   { fill:rgb(193, 0, 0)}
+.r194   { fill:rgb(194, 0, 0)}
+.r195   { fill:rgb(195, 0, 0)}
+.r196   { fill:rgb(196, 0, 0)}
+.r197   { fill:rgb(197, 0, 0)}
+.r198   { fill:rgb(198, 0, 0)}
+.r199   { fill:rgb(199, 0, 0)}
+.r200   { fill:rgb(200, 0, 0)}
+.r201   { fill:rgb(201, 0, 0)}
+.r202   { fill:rgb(202, 0, 0)}
+.r203   { fill:rgb(203, 0, 0)}
+.r204   { fill:rgb(204, 0, 0)}
+.r205   { fill:rgb(205, 0, 0)}
+.r206   { fill:rgb(206, 0, 0)}
+.r207   { fill:rgb(207, 0, 0)}
+.r208   { fill:rgb(208, 0, 0)}
+.r209   { fill:rgb(209, 0, 0)}
+.r210   { fill:rgb(210, 0, 0)}
+.r211   { fill:rgb(211, 0, 0)}
+.r212   { fill:rgb(212, 0, 0)}
+.r213   { fill:rgb(213, 0, 0)}
+.r214   { fill:rgb(214, 0, 0)}
+.r215   { fill:rgb(215, 0, 0)}
+.r216   { fill:rgb(216, 0, 0)}
+.r217   { fill:rgb(217, 0, 0)}
+.r218   { fill:rgb(218, 0, 0)}
+.r219   { fill:rgb(219, 0, 0)}
+.r220   { fill:rgb(220, 0, 0)}
+.r221   { fill:rgb(221, 0, 0)}
+.r222   { fill:rgb(222, 0, 0)}
+.r223   { fill:rgb(223, 0, 0)}
+.r224   { fill:rgb(224, 0, 0)}
+.r225   { fill:rgb(225, 0, 0)}
+.r226   { fill:rgb(226, 0, 0)}
+.r227   { fill:rgb(227, 0, 0)}
+.r228   { fill:rgb(228, 0, 0)}
+.r229   { fill:rgb(229, 0, 0)}
+.r230   { fill:rgb(230, 0, 0)}
+.r231   { fill:rgb(231, 0, 0)}
+.r232   { fill:rgb(232, 0, 0)}
+.r233   { fill:rgb(233, 0, 0)}
+.r234   { fill:rgb(234, 0, 0)}
+.r235   { fill:rgb(235, 0, 0)}
+.r236   { fill:rgb(236, 0, 0)}
+.r237   { fill:rgb(237, 0, 0)}
+.r238   { fill:rgb(238, 0, 0)}
+.r239   { fill:rgb(239, 0, 0)}
+.r240   { fill:rgb(240, 0, 0)}
+.r241   { fill:rgb(241, 0, 0)}
+.r242   { fill:rgb(242, 0, 0)}
+.r243   { fill:rgb(243, 0, 0)}
+.r244   { fill:rgb(244, 0, 0)}
+.r245   { fill:rgb(245, 0, 0)}
+.r246   { fill:rgb(246, 0, 0)}
+.r247   { fill:rgb(247, 0, 0)}
+.r248   { fill:rgb(248, 0, 0)}
+.r249   { fill:rgb(249, 0, 0)}
+.r250   { fill:rgb(250, 0, 0)}
+.r251   { fill:rgb(251, 0, 0)}
+.r252   { fill:rgb(252, 0, 0)}
+.r253   { fill:rgb(253, 0, 0)}
+.r254   { fill:rgb(254, 0, 0)}
+.r255   { fill:rgb(255, 0, 0)}
+
+.b0       { fill:rgb(0, 0, 0  )}
+.b1       { fill:rgb(0, 0, 1  )}
+.b2       { fill:rgb(0, 0, 2  )}
+.b3       { fill:rgb(0, 0, 3  )}
+.b4       { fill:rgb(0, 0, 4  )}
+.b5       { fill:rgb(0, 0, 5  )}
+.b6       { fill:rgb(0, 0, 6  )}
+.b7       { fill:rgb(0, 0, 7  )}
+.b8       { fill:rgb(0, 0, 8  )}
+.b9       { fill:rgb(0, 0, 9  )}
+.b10     { fill:rgb(0, 0,  10 )}
+.b11     { fill:rgb(0, 0,  11 )}
+.b12     { fill:rgb(0, 0,  12 )}
+.b13     { fill:rgb(0, 0,  13 )}
+.b14     { fill:rgb(0, 0,  14 )}
+.b15     { fill:rgb(0, 0,  15 )}
+.b16     { fill:rgb(0, 0,  16 )}
+.b17     { fill:rgb(0, 0,  17 )}
+.b18     { fill:rgb(0, 0,  18 )}
+.b19     { fill:rgb(0, 0,  19 )}
+.b20     { fill:rgb(0, 0,  20 )}
+.b21     { fill:rgb(0, 0,  21 )}
+.b22     { fill:rgb(0, 0,  22 )}
+.b23     { fill:rgb(0, 0,  23 )}
+.b24     { fill:rgb(0, 0,  24 )}
+.b25     { fill:rgb(0, 0,  25 )}
+.b26     { fill:rgb(0, 0,  26 )}
+.b27     { fill:rgb(0, 0,  27 )}
+.b28     { fill:rgb(0, 0,  28 )}
+.b29     { fill:rgb(0, 0,  29 )}
+.b30     { fill:rgb(0, 0,  30 )}
+.b31     { fill:rgb(0, 0,  31 )}
+.b32     { fill:rgb(0, 0,  32 )}
+.b33     { fill:rgb(0, 0,  33 )}
+.b34     { fill:rgb(0, 0,  34 )}
+.b35     { fill:rgb(0, 0,  35 )}
+.b36     { fill:rgb(0, 0,  36 )}
+.b37     { fill:rgb(0, 0,  37 )}
+.b38     { fill:rgb(0, 0,  38 )}
+.b39     { fill:rgb(0, 0,  39 )}
+.b40     { fill:rgb(0, 0,  40 )}
+.b41     { fill:rgb(0, 0,  41 )}
+.b42     { fill:rgb(0, 0,  42 )}
+.b43     { fill:rgb(0, 0,  43 )}
+.b44     { fill:rgb(0, 0,  44 )}
+.b45     { fill:rgb(0, 0,  45 )}
+.b46     { fill:rgb(0, 0,  46 )}
+.b47     { fill:rgb(0, 0,  47 )}
+.b48     { fill:rgb(0, 0,  48 )}
+.b49     { fill:rgb(0, 0,  49 )}
+.b50     { fill:rgb(0, 0,  50 )}
+.b51     { fill:rgb(0, 0,  51 )}
+.b52     { fill:rgb(0, 0,  52 )}
+.b53     { fill:rgb(0, 0,  53 )}
+.b54     { fill:rgb(0, 0,  54 )}
+.b55     { fill:rgb(0, 0,  55 )}
+.b56     { fill:rgb(0, 0,  56 )}
+.b57     { fill:rgb(0, 0,  57 )}
+.b58     { fill:rgb(0, 0,  58 )}
+.b59     { fill:rgb(0, 0,  59 )}
+.b60     { fill:rgb(0, 0,  60 )}
+.b61     { fill:rgb(0, 0,  61 )}
+.b62     { fill:rgb(0, 0,  62 )}
+.b63     { fill:rgb(0, 0,  63 )}
+.b64     { fill:rgb(0, 0,  64 )}
+.b65     { fill:rgb(0, 0,  65 )}
+.b66     { fill:rgb(0, 0,  66 )}
+.b67     { fill:rgb(0, 0,  67 )}
+.b68     { fill:rgb(0, 0,  68 )}
+.b69     { fill:rgb(0, 0,  69 )}
+.b70     { fill:rgb(0, 0,  70 )}
+.b71     { fill:rgb(0, 0,  71 )}
+.b72     { fill:rgb(0, 0,  72 )}
+.b73     { fill:rgb(0, 0,  73 )}
+.b74     { fill:rgb(0, 0,  74 )}
+.b75     { fill:rgb(0, 0,  75 )}
+.b76     { fill:rgb(0, 0,  76 )}
+.b77     { fill:rgb(0, 0,  77 )}
+.b78     { fill:rgb(0, 0,  78 )}
+.b79     { fill:rgb(0, 0,  79 )}
+.b80     { fill:rgb(0, 0,  80 )}
+.b81     { fill:rgb(0, 0,  81 )}
+.b82     { fill:rgb(0, 0,  82 )}
+.b83     { fill:rgb(0, 0,  83 )}
+.b84     { fill:rgb(0, 0,  84 )}
+.b85     { fill:rgb(0, 0,  85 )}
+.b86     { fill:rgb(0, 0,  86 )}
+.b87     { fill:rgb(0, 0,  87 )}
+.b88     { fill:rgb(0, 0,  88 )}
+.b89     { fill:rgb(0, 0,  89 )}
+.b90     { fill:rgb(0, 0,  90 )}
+.b91     { fill:rgb(0, 0,  91 )}
+.b92     { fill:rgb(0, 0,  92 )}
+.b93     { fill:rgb(0, 0,  93 )}
+.b94     { fill:rgb(0, 0,  94 )}
+.b95     { fill:rgb(0, 0,  95 )}
+.b96     { fill:rgb(0, 0,  96 )}
+.b97     { fill:rgb(0, 0,  97 )}
+.b98     { fill:rgb(0, 0,  98 )}
+.b99     { fill:rgb(0, 0,  99 )}
+.b100   { fill:rgb(0, 0, 100)}
+.b101   { fill:rgb(0, 0, 101)}
+.b102   { fill:rgb(0, 0, 102)}
+.b103   { fill:rgb(0, 0, 103)}
+.b104   { fill:rgb(0, 0, 104)}
+.b105   { fill:rgb(0, 0, 105)}
+.b106   { fill:rgb(0, 0, 106)}
+.b107   { fill:rgb(0, 0, 107)}
+.b108   { fill:rgb(0, 0, 108)}
+.b109   { fill:rgb(0, 0, 109)}
+.b110   { fill:rgb(0, 0, 110)}
+.b111   { fill:rgb(0, 0, 111)}
+.b112   { fill:rgb(0, 0, 112)}
+.b113   { fill:rgb(0, 0, 113)}
+.b114   { fill:rgb(0, 0, 114)}
+.b115   { fill:rgb(0, 0, 115)}
+.b116   { fill:rgb(0, 0, 116)}
+.b117   { fill:rgb(0, 0, 117)}
+.b118   { fill:rgb(0, 0, 118)}
+.b119   { fill:rgb(0, 0, 119)}
+.b120   { fill:rgb(0, 0, 120)}
+.b121   { fill:rgb(0, 0, 121)}
+.b122   { fill:rgb(0, 0, 122)}
+.b123   { fill:rgb(0, 0, 123)}
+.b124   { fill:rgb(0, 0, 124)}
+.b125   { fill:rgb(0, 0, 125)}
+.b126   { fill:rgb(0, 0, 126)}
+.b127   { fill:rgb(0, 0, 127)}
+.b128   { fill:rgb(0, 0, 128)}
+.b129   { fill:rgb(0, 0, 129)}
+.b130   { fill:rgb(0, 0, 130)}
+.b131   { fill:rgb(0, 0, 131)}
+.b132   { fill:rgb(0, 0, 132)}
+.b133   { fill:rgb(0, 0, 133)}
+.b134   { fill:rgb(0, 0, 134)}
+.b135   { fill:rgb(0, 0, 135)}
+.b136   { fill:rgb(0, 0, 136)}
+.b137   { fill:rgb(0, 0, 137)}
+.b138   { fill:rgb(0, 0, 138)}
+.b139   { fill:rgb(0, 0, 139)}
+.b140   { fill:rgb(0, 0, 140)}
+.b141   { fill:rgb(0, 0, 141)}
+.b142   { fill:rgb(0, 0, 142)}
+.b143   { fill:rgb(0, 0, 143)}
+.b144   { fill:rgb(0, 0, 144)}
+.b145   { fill:rgb(0, 0, 145)}
+.b146   { fill:rgb(0, 0, 146)}
+.b147   { fill:rgb(0, 0, 147)}
+.b148   { fill:rgb(0, 0, 148)}
+.b149   { fill:rgb(0, 0, 149)}
+.b150   { fill:rgb(0, 0, 150)}
+.b151   { fill:rgb(0, 0, 151)}
+.b152   { fill:rgb(0, 0, 152)}
+.b153   { fill:rgb(0, 0, 153)}
+.b154   { fill:rgb(0, 0, 154)}
+.b155   { fill:rgb(0, 0, 155)}
+.b156   { fill:rgb(0, 0, 156)}
+.b157   { fill:rgb(0, 0, 157)}
+.b158   { fill:rgb(0, 0, 158)}
+.b159   { fill:rgb(0, 0, 159)}
+.b160   { fill:rgb(0, 0, 160)}
+.b161   { fill:rgb(0, 0, 161)}
+.b162   { fill:rgb(0, 0, 162)}
+.b163   { fill:rgb(0, 0, 163)}
+.b164   { fill:rgb(0, 0, 164)}
+.b165   { fill:rgb(0, 0, 165)}
+.b166   { fill:rgb(0, 0, 166)}
+.b167   { fill:rgb(0, 0, 167)}
+.b168   { fill:rgb(0, 0, 168)}
+.b169   { fill:rgb(0, 0, 169)}
+.b170   { fill:rgb(0, 0, 170)}
+.b171   { fill:rgb(0, 0, 171)}
+.b172   { fill:rgb(0, 0, 172)}
+.b173   { fill:rgb(0, 0, 173)}
+.b174   { fill:rgb(0, 0, 174)}
+.b175   { fill:rgb(0, 0, 175)}
+.b176   { fill:rgb(0, 0, 176)}
+.b177   { fill:rgb(0, 0, 177)}
+.b178   { fill:rgb(0, 0, 178)}
+.b179   { fill:rgb(0, 0, 179)}
+.b180   { fill:rgb(0, 0, 180)}
+.b181   { fill:rgb(0, 0, 181)}
+.b182   { fill:rgb(0, 0, 182)}
+.b183   { fill:rgb(0, 0, 183)}
+.b184   { fill:rgb(0, 0, 184)}
+.b185   { fill:rgb(0, 0, 185)}
+.b186   { fill:rgb(0, 0, 186)}
+.b187   { fill:rgb(0, 0, 187)}
+.b188   { fill:rgb(0, 0, 188)}
+.b189   { fill:rgb(0, 0, 189)}
+.b190   { fill:rgb(0, 0, 190)}
+.b191   { fill:rgb(0, 0, 191)}
+.b192   { fill:rgb(0, 0, 192)}
+.b193   { fill:rgb(0, 0, 193)}
+.b194   { fill:rgb(0, 0, 194)}
+.b195   { fill:rgb(0, 0, 195)}
+.b196   { fill:rgb(0, 0, 196)}
+.b197   { fill:rgb(0, 0, 197)}
+.b198   { fill:rgb(0, 0, 198)}
+.b199   { fill:rgb(0, 0, 199)}
+.b200   { fill:rgb(0, 0, 200)}
+.b201   { fill:rgb(0, 0, 201)}
+.b202   { fill:rgb(0, 0, 202)}
+.b203   { fill:rgb(0, 0, 203)}
+.b204   { fill:rgb(0, 0, 204)}
+.b205   { fill:rgb(0, 0, 205)}
+.b206   { fill:rgb(0, 0, 206)}
+.b207   { fill:rgb(0, 0, 207)}
+.b208   { fill:rgb(0, 0, 208)}
+.b209   { fill:rgb(0, 0, 209)}
+.b210   { fill:rgb(0, 0, 210)}
+.b211   { fill:rgb(0, 0, 211)}
+.b212   { fill:rgb(0, 0, 212)}
+.b213   { fill:rgb(0, 0, 213)}
+.b214   { fill:rgb(0, 0, 214)}
+.b215   { fill:rgb(0, 0, 215)}
+.b216   { fill:rgb(0, 0, 216)}
+.b217   { fill:rgb(0, 0, 217)}
+.b218   { fill:rgb(0, 0, 218)}
+.b219   { fill:rgb(0, 0, 219)}
+.b220   { fill:rgb(0, 0, 220)}
+.b221   { fill:rgb(0, 0, 221)}
+.b222   { fill:rgb(0, 0, 222)}
+.b223   { fill:rgb(0, 0, 223)}
+.b224   { fill:rgb(0, 0, 224)}
+.b225   { fill:rgb(0, 0, 225)}
+.b226   { fill:rgb(0, 0, 226)}
+.b227   { fill:rgb(0, 0, 227)}
+.b228   { fill:rgb(0, 0, 228)}
+.b229   { fill:rgb(0, 0, 229)}
+.b230   { fill:rgb(0, 0, 230)}
+.b231   { fill:rgb(0, 0, 231)}
+.b232   { fill:rgb(0, 0, 232)}
+.b233   { fill:rgb(0, 0, 233)}
+.b234   { fill:rgb(0, 0, 234)}
+.b235   { fill:rgb(0, 0, 235)}
+.b236   { fill:rgb(0, 0, 236)}
+.b237   { fill:rgb(0, 0, 237)}
+.b238   { fill:rgb(0, 0, 238)}
+.b239   { fill:rgb(0, 0, 239)}
+.b240   { fill:rgb(0, 0, 240)}
+.b241   { fill:rgb(0, 0, 241)}
+.b242   { fill:rgb(0, 0, 242)}
+.b243   { fill:rgb(0, 0, 243)}
+.b244   { fill:rgb(0, 0, 244)}
+.b245   { fill:rgb(0, 0, 245)}
+.b246   { fill:rgb(0, 0, 246)}
+.b247   { fill:rgb(0, 0, 247)}
+.b248   { fill:rgb(0, 0, 248)}
+.b249   { fill:rgb(0, 0, 249)}
+.b250   { fill:rgb(0, 0, 250)}
+.b251   { fill:rgb(0, 0, 251)}
+.b252   { fill:rgb(0, 0, 252)}
+.b253   { fill:rgb(0, 0, 253)}
+.b254   { fill:rgb(0, 0, 254)}
+.b255   { fill:rgb(0, 0, 255)}
