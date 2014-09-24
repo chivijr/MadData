@@ -1,4 +1,4 @@
-function initialize() {
+function initialize(event) {
 
 	//************************ PARÁMETROS JAVASCRIPT ***********************************
 	var zoom_mapa = 12;
@@ -107,19 +107,19 @@ function initialize() {
 	map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
 	if(navigator.geolocation) {
 		navigator.geolocation.getCurrentPosition(function(position) {
-		pos = new google.maps.LatLng(position.coords.latitude,
-										position.coords.longitude);
-		
-		var infowindow = new google.maps.InfoWindow({
-			map: map,
-			position: pos,
-			content: 'Estás aquí.'
-		});
-	
-		google.maps.Map.prototype.markers = new Array();
+			pos = new google.maps.LatLng(position.coords.latitude,
+											position.coords.longitude);
 			
-		map.setCenter(pos);
+			var infowindow = new google.maps.InfoWindow({
+				map: map,
+				position: pos,
+				content: 'Estás aquí.'
+			});
 	
+			google.maps.Map.prototype.markers = new Array();
+			
+			map.setCenter(pos);
+			InsertaBusqueda(pos,event);
 		}, function() {
 			handleNoGeolocation(true);
 		});
@@ -128,6 +128,50 @@ function initialize() {
 		handleNoGeolocation(false);
 	};
 	//************************ PINTA EL MAPA ***********************************
+}
+
+function InsertaBusqueda(pos,event) {
+
+	var xmlhttp=new XMLHttpRequest();
+/*	xmlhttp.onreadystatechange=function() {
+		if (xmlhttp.readyState==4 && xmlhttp.status==200) {
+			console.log("Localización insertada correctamente.");
+		}
+	}*/
+	xmlhttp.open("POST","insertaloc.php?lat="+pos.lat()+"&lng="+pos.lng()+"&time="+timeStamp(),true);
+	xmlhttp.send();
+
+}
+
+function timeStamp() {
+	// Create a date object with the current time
+	var now = new Date();
+	var mes = now.getMonth() + 1;
+	if (mes <10 )  {
+		var mes = "0"+mes;
+	}
+	
+	var dia = now.getDate();
+	if (dia <10 )  {
+		var dia = "0"+dia;
+	}
+	
+	// Create an array with the current month, day and time
+	var date = [ now.getFullYear() , mes, dia];
+	
+	// Create an array with the current hour, minute and second
+	var time = [ now.getHours(), now.getMinutes(), now.getSeconds() ];
+	
+
+	// If seconds and minutes are less than 10, add a zero
+	for ( var i = 1; i < 3; i++ ) {
+	if ( time[i] < 10 ) {
+	time[i] = "0" + time[i];
+	}
+	}
+	
+	// Return the formatted string
+	return date.join("-") + " " + time.join(":") ;
 }
 
 // Sets the map on all markers in the array.
