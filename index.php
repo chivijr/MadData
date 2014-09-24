@@ -14,7 +14,7 @@
 		<script type="text/javascript" src="Tabla.php"></script>
 	</head>
 	
-	<body onload="initialize()">
+	<body onload="initialize(event)">
 		<div id="header">
 			<div class="Data">NineDATA</div>
 		</div>
