@@ -235,7 +235,7 @@ function pinta_puntos() {
 			marker = new google.maps.Marker({
 				position: new google.maps.LatLng(locations[i][24],locations[i][25]),
 				map: map,
-				icon: icono_marcador, 
+				//icon: icono_marcador, 
 				title: locations[i][0] + " está a " + distancia.toString().substring(0,6) + " metros."
 			});
 			google.maps.Map.prototype.markers.push(marker);
