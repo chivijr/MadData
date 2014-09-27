@@ -1,0 +1,93 @@
+/*
+SQLyog Community v12.01 (64 bit)
+MySQL - 5.6.16 : Database - freakeando
+*********************************************************************
+*/
+
+
+/*!40101 SET NAMES utf8 */;
+
+/*!40101 SET SQL_MODE=''*/;
+
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+CREATE DATABASE /*!32312 IF NOT EXISTS*/`freakeando` /*!40100 DEFAULT CHARACTER SET latin1 */;
+
+USE `freakeando`;
+
+/*Table structure for table `accesos` */
+
+CREATE TABLE `accesos` (
+  `timestamp` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `latitud` float DEFAULT NULL,
+  `longitud` float DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+/*Table structure for table `distritobarrio` */
+
+CREATE TABLE `distritobarrio` (
+  `ID_Distrito` int(11) NOT NULL,
+  `ID_Barrio` int(11) NOT NULL,
+  `Nombre` varchar(30) DEFAULT NULL,
+  `Superficie` float DEFAULT NULL,
+  `Densidad` float DEFAULT NULL,
+  `Poblacion` int(11) DEFAULT NULL,
+  PRIMARY KEY (`ID_Distrito`,`ID_Barrio`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+/*Table structure for table `farmacias_csv` */
+
+CREATE TABLE `farmacias_csv` (
+  `PK` int(11) DEFAULT NULL,
+  `NOMBRE` varchar(50) DEFAULT NULL,
+  `DESCRIPCIONENTIDAD` varchar(200) DEFAULT NULL,
+  `HORARIO` varchar(50) DEFAULT NULL,
+  `EQUIPAMIENTO` varchar(50) DEFAULT NULL,
+  `TRANSPORTE` varchar(50) DEFAULT NULL,
+  `DESCRIPCION` varchar(50) DEFAULT NULL,
+  `ACCESIBILIDAD` varchar(50) DEFAULT NULL,
+  `CONTENTURL` varchar(50) DEFAULT NULL,
+  `NOMBREVIA` varchar(50) DEFAULT NULL,
+  `CLASEVIAL` varchar(50) DEFAULT NULL,
+  `TIPONUM` varchar(50) DEFAULT NULL,
+  `NUM` varchar(50) DEFAULT NULL,
+  `PLANTA` varchar(50) DEFAULT NULL,
+  `PUERTA` varchar(50) DEFAULT NULL,
+  `ESCALERAS` varchar(50) DEFAULT NULL,
+  `ORIENTACION` varchar(50) DEFAULT NULL,
+  `LOCALIDAD` varchar(50) DEFAULT NULL,
+  `PROVINCIA` varchar(50) DEFAULT NULL,
+  `CODIGOPOSTAL` varchar(50) DEFAULT NULL,
+  `BARRIO` varchar(50) DEFAULT NULL,
+  `DISTRITO` varchar(50) DEFAULT NULL,
+  `COORDENADAX` varchar(50) DEFAULT NULL,
+  `COORDENADAY` varchar(50) DEFAULT NULL,
+  `LATITUD` varchar(50) DEFAULT NULL,
+  `LONGITUD` varchar(50) DEFAULT NULL,
+  `TELEFONO` varchar(50) DEFAULT NULL,
+  `FAX` varchar(50) DEFAULT NULL,
+  `EMAIL` varchar(50) DEFAULT NULL,
+  `TIPO` varchar(50) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+/*Table structure for table `padron` */
+
+CREATE TABLE `padron` (
+  `COD_DISTRITO` int(11) DEFAULT NULL,
+  `DESC_DISTRITO` varchar(50) DEFAULT NULL,
+  `COD_DIST_BARRIO` int(11) DEFAULT NULL,
+  `DESC_BARRIO` varchar(20) DEFAULT NULL,
+  `COD_BARRIO` int(11) DEFAULT NULL,
+  `COD_DIST_SECCION` int(11) DEFAULT NULL,
+  `COD_SECCION` int(11) DEFAULT NULL,
+  `COD_EDAD_INT` int(11) DEFAULT NULL,
+  `EspanolesHombres` int(11) DEFAULT NULL,
+  `EspanolesMujeres` int(11) DEFAULT NULL,
+  `ExtranjerosHombres` int(11) DEFAULT NULL,
+  `ExtranjerosMujeres` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
